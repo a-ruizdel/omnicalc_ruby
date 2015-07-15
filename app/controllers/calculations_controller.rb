@@ -79,7 +79,7 @@ end
       #  if list_of_numbers.count.odd
      #       @median_count=@count+0.5
     # elsif list_of_numbers.count.even
-            @median_count=@count
+    #        @median_count=@count
      #   end
       #  return @median_count
     #end
