@@ -84,6 +84,15 @@ end
       #  return @median_count
     #end
 
+    # counts = Hash.new (0)
+    #    numbers.each do |nums|
+    #    counts[nums] += 1
+    #    end
+
+    #    counts.each do |k, nums|
+    #        puts "#{k} appears #{nums} times"
+    #    end
+
     #================================================================================
     # Your code goes below.
     # The numbers the user input are in the array @numbers.
