@@ -74,16 +74,17 @@ end
         end
         return running_total/@count
     end
-
-    def median_count(list_of_numbers)
-        if list_of_numbers.count.odd
-            @median_count=@count+0.5
-        elsif list_of_numbers.count.even
+#
+    #def median_count(list_of_numbers)
+      #  if list_of_numbers.count.odd
+     #       @median_count=@count+0.5
+    # elsif list_of_numbers.count.even
             @median_count=@count
-        end
-        return @median_count
-    end
-    # ================================================================================
+     #   end
+      #  return @median_count
+    #end
+
+    #================================================================================
     # Your code goes below.
     # The numbers the user input are in the array @numbers.
     # ================================================================================
@@ -98,7 +99,7 @@ end
 
     @range = (@numbers.max)-(@numbers.min)
 
-    @median = median_count(@sorted_numbers)
+    #@median = median_count(@sorted_numbers)
 
     @sum = @numbers.sum
 
@@ -108,6 +109,6 @@ end
 
     @standard_deviation = @variance**0.5
 
-    @mode = "Replace this string with your answer."
+    #@mode = "Replace this string with your answer."
   end
 end
